@@ -1,1 +1,4 @@
-{"rewrites":[{"source":"/((?!assets/|materials/|favicon.ico).*)","destination":"/index.html"}]}
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
