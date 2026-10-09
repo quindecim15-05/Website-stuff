@@ -60,6 +60,12 @@ test('a flashcard source opens the correct PDF page and returns to the same card
  await expect(page.getByRole('link',{name:'Back to Flashcards'})).toBeVisible();
 });
 
+test('flashcards open on the question side unless restoring a specific card',async ({page})=>{
+ await page.goto('/flashcards?side=answer');
+ await expect(page.locator('.flip-tag')).toHaveText('QUESTION');
+ await expect(page.getByRole('button',{name:'Reveal flashcard answer'})).toBeVisible();
+});
+
 test('direct PDF visits keep subject navigation instead of an invalid flashcard return',async ({page})=>{
  await page.goto('/materials/pickleball?page=3&returnTo=https%3A%2F%2Fexample.com');
  await expect(page.getByRole('link',{name:'Back to PATHFIT 3'})).toBeVisible();

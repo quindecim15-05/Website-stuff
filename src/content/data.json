@@ -5319,7 +5319,7 @@
       "id": "classes-objects-card-1",
       "subjectId": "dcit50",
       "topicId": "classes-objects",
-      "front": "Key idea 1: Classes & Objects",
+      "front": "What is a class in object-oriented programming?",
       "back": "A class is a blueprint or template for objects.",
       "sourceId": "classes",
       "page": 1
@@ -5328,7 +5328,7 @@
       "id": "classes-objects-card-2",
       "subjectId": "dcit50",
       "topicId": "classes-objects",
-      "front": "Recall: Classes & Objects",
+      "front": "What is an object in Java?",
       "back": "An object is an instance of a class.",
       "sourceId": "classes",
       "page": 2
@@ -5337,7 +5337,7 @@
       "id": "classes-objects-card-3",
       "subjectId": "dcit50",
       "topicId": "classes-objects",
-      "front": "Explain this concept: Classes & Objects",
+      "front": "What is the difference between fields and methods?",
       "back": "Fields represent state; methods represent behavior.",
       "sourceId": "classes",
       "page": 5
@@ -5346,7 +5346,7 @@
       "id": "classes-objects-card-4",
       "subjectId": "dcit50",
       "topicId": "classes-objects",
-      "front": "What should you remember about Classes & Objects?",
+      "front": "Which Java keyword is commonly used to create an object?",
       "back": "The new keyword creates an object.",
       "sourceId": "classes",
       "page": 3
@@ -5355,7 +5355,7 @@
       "id": "constructors-card-1",
       "subjectId": "dcit50",
       "topicId": "constructors",
-      "front": "Key idea 1: Java Constructors",
+      "front": "What is the main purpose of a constructor?",
       "back": "A constructor initializes the state of a newly created object.",
       "sourceId": "constructors",
       "page": 1
@@ -5364,7 +5364,7 @@
       "id": "constructors-card-2",
       "subjectId": "dcit50",
       "topicId": "constructors",
-      "front": "Recall: Java Constructors",
+      "front": "What two rules apply to a Java constructor's name and return type?",
       "back": "Constructors share their class name and have no return type.",
       "sourceId": "constructors",
       "page": 2
@@ -5373,7 +5373,7 @@
       "id": "constructors-card-3",
       "subjectId": "dcit50",
       "topicId": "constructors",
-      "front": "Explain this concept: Java Constructors",
+      "front": "How does a compiler-provided default constructor differ from an explicit no-argument constructor?",
       "back": "A compiler default constructor differs from an explicit no-argument constructor.",
       "sourceId": "constructors",
       "page": 5
@@ -5382,7 +5382,7 @@
       "id": "constructors-card-4",
       "subjectId": "dcit50",
       "topicId": "constructors",
-      "front": "What should you remember about Java Constructors?",
+      "front": "How does constructor overloading work, and how can this(...) be used?",
       "back": "Constructor overloading uses different parameter lists; this(...) chains constructors.",
       "sourceId": "constructors",
       "page": 10
@@ -5391,7 +5391,7 @@
       "id": "static-this-card-1",
       "subjectId": "dcit50",
       "topicId": "static-this",
-      "front": "Key idea 1: Static & This Keyword",
+      "front": "What does it mean for a Java member to be static?",
       "back": "Static members belong to the class, rather than an individual object.",
       "sourceId": "static",
       "page": 1
@@ -5400,7 +5400,7 @@
       "id": "static-this-card-2",
       "subjectId": "dcit50",
       "topicId": "static-this",
-      "front": "Recall: Static & This Keyword",
+      "front": "Can a static method directly access an instance member without an object?",
       "back": "Static methods cannot directly access instance members without an object.",
       "sourceId": "static",
       "page": 4
@@ -5409,7 +5409,7 @@
       "id": "static-this-card-3",
       "subjectId": "dcit50",
       "topicId": "static-this",
-      "front": "Explain this concept: Static & This Keyword",
+      "front": "What does the this keyword refer to in Java?",
       "back": "The this keyword refers to the current object.",
       "sourceId": "static",
       "page": 8
@@ -5418,7 +5418,7 @@
       "id": "static-this-card-4",
       "subjectId": "dcit50",
       "topicId": "static-this",
-      "front": "What should you remember about Static & This Keyword?",
+      "front": "When does a static initialization block execute?",
       "back": "Static initialization blocks execute during class initialization.",
       "sourceId": "static",
       "page": 6
@@ -5427,7 +5427,7 @@
       "id": "globalization-card-1",
       "subjectId": "gned07",
       "topicId": "globalization",
-      "front": "Key idea 1: Introduction to Globalization",
+      "front": "What is globalization?",
       "back": "Globalization refers to increasing global interconnectedness and interdependence.",
       "sourceId": "gned07",
       "page": 1
@@ -5436,7 +5436,7 @@
       "id": "globalization-card-2",
       "subjectId": "gned07",
       "topicId": "globalization",
-      "front": "Recall: Introduction to Globalization",
+      "front": "How do hyperglobalists view globalization?",
       "back": "Hyperglobalists envision profound borderless transformation.",
       "sourceId": "gned07",
       "page": 1
@@ -5445,7 +5445,7 @@
       "id": "globalization-card-3",
       "subjectId": "gned07",
       "topicId": "globalization",
-      "front": "Explain this concept: Introduction to Globalization",
+      "front": "What do skeptics emphasize when explaining globalization?",
       "back": "Skeptics emphasize nation-state continuity.",
       "sourceId": "gned07",
       "page": 1
@@ -5454,7 +5454,7 @@
       "id": "globalization-card-4",
       "subjectId": "gned07",
       "topicId": "globalization",
-      "front": "What should you remember about Introduction to Globalization?",
+      "front": "How do transformationalists explain globalization?",
       "back": "Transformationalists emphasize reconfiguration and glocalization.",
       "sourceId": "gned07",
       "page": 1
@@ -5463,7 +5463,7 @@
       "id": "global-economy-card-1",
       "subjectId": "gned07",
       "topicId": "global-economy",
-      "front": "Key idea 1: Global Economy",
+      "front": "How do global value chains relate to international trade?",
       "back": "Global value chains organize international trade.",
       "sourceId": "gned07",
       "page": 1
@@ -5472,7 +5472,7 @@
       "id": "global-economy-card-2",
       "subjectId": "gned07",
       "topicId": "global-economy",
-      "front": "Recall: Global Economy",
+      "front": "What is global finance?",
       "back": "Global finance involves capital and assets crossing borders.",
       "sourceId": "gned07",
       "page": 1
@@ -5481,7 +5481,7 @@
       "id": "global-economy-card-3",
       "subjectId": "gned07",
       "topicId": "global-economy",
-      "front": "Explain this concept: Global Economy",
+      "front": "How do Overseas Filipino Workers illustrate cross-border labor migration?",
       "back": "OFWs are an important example of cross-border labor migration in the Philippines.",
       "sourceId": "gned07",
       "page": 1
@@ -5490,7 +5490,7 @@
       "id": "market-integration-card-1",
       "subjectId": "gned07",
       "topicId": "market-integration",
-      "front": "Key idea 1: Market Integration",
+      "front": "What is horizontal integration?",
       "back": "Horizontal integration involves competitors at the same production level.",
       "sourceId": "gned07",
       "page": 2
@@ -5499,7 +5499,7 @@
       "id": "market-integration-card-2",
       "subjectId": "gned07",
       "topicId": "market-integration",
-      "front": "Recall: Market Integration",
+      "front": "What is vertical integration?",
       "back": "Vertical integration links multiple stages of production or marketing.",
       "sourceId": "gned07",
       "page": 2
@@ -5508,7 +5508,7 @@
       "id": "market-integration-card-3",
       "subjectId": "gned07",
       "topicId": "market-integration",
-      "front": "Explain this concept: Market Integration",
+      "front": "What is conglomerate integration?",
       "back": "Conglomerate integration combines unrelated enterprises.",
       "sourceId": "gned07",
       "page": 2
@@ -5517,7 +5517,7 @@
       "id": "market-integration-card-4",
       "subjectId": "gned07",
       "topicId": "market-integration",
-      "front": "What should you remember about Market Integration?",
+      "front": "What does spatial market integration examine?",
       "back": "Spatial integration concerns price signals across geographic regions.",
       "sourceId": "gned07",
       "page": 2
@@ -5526,7 +5526,7 @@
       "id": "global-governance-card-1",
       "subjectId": "gned07",
       "topicId": "global-governance",
-      "front": "Key idea 1: Interstate System & Governance",
+      "front": "Which peace settlement is associated with the modern sovereign-state system?",
       "back": "The Peace of Westphalia is associated with the sovereign state system.",
       "sourceId": "gned07",
       "page": 2
@@ -5535,7 +5535,7 @@
       "id": "global-governance-card-2",
       "subjectId": "gned07",
       "topicId": "global-governance",
-      "front": "Recall: Interstate System & Governance",
+      "front": "What are the four key elements of a state?",
       "back": "A state has territory, population, government and sovereignty.",
       "sourceId": "gned07",
       "page": 2
@@ -5544,7 +5544,7 @@
       "id": "global-governance-card-3",
       "subjectId": "gned07",
       "topicId": "global-governance",
-      "front": "Explain this concept: Interstate System & Governance",
+      "front": "How can global governance operate without a single world government?",
       "back": "Governance involves IGOs, NGOs and treaties, without a single world government.",
       "sourceId": "gned07",
       "page": 2
@@ -5553,7 +5553,7 @@
       "id": "world-regions-card-1",
       "subjectId": "gned07",
       "topicId": "world-regions",
-      "front": "Key idea 1: A World of Regions",
+      "front": "What do the terms Global North and Global South generally describe?",
       "back": "Global North and Global South describe disparities in wealth and development.",
       "sourceId": "gned07",
       "page": 3
@@ -5562,7 +5562,7 @@
       "id": "world-regions-card-2",
       "subjectId": "gned07",
       "topicId": "world-regions",
-      "front": "Recall: A World of Regions",
+      "front": "What does Asian regionalism encourage?",
       "back": "Asian regionalism increases economic, political and cultural cooperation.",
       "sourceId": "gned07",
       "page": 3
@@ -5571,7 +5571,7 @@
       "id": "world-regions-card-3",
       "subjectId": "gned07",
       "topicId": "world-regions",
-      "front": "Explain this concept: A World of Regions",
+      "front": "What are the main principles of the ASEAN Way?",
       "back": "The ASEAN Way emphasizes consensus, non-interference and informality.",
       "sourceId": "gned07",
       "page": 3
@@ -5580,7 +5580,7 @@
       "id": "gender-work-card-1",
       "subjectId": "gned10",
       "topicId": "gender-work",
-      "front": "Key idea 1: Gender and Work",
+      "front": "What is sex-typing in the workplace?",
       "back": "Sex-typing assigns occupations by beliefs about biological sex.",
       "sourceId": "gned10",
       "page": 1
@@ -5589,7 +5589,7 @@
       "id": "gender-work-card-2",
       "subjectId": "gned10",
       "topicId": "gender-work",
-      "front": "Recall: Gender and Work",
+      "front": "What is access discrimination in employment?",
       "back": "Access discrimination concerns barriers to hiring.",
       "sourceId": "gned10",
       "page": 1
@@ -5598,7 +5598,7 @@
       "id": "gender-work-card-3",
       "subjectId": "gned10",
       "topicId": "gender-work",
-      "front": "Explain this concept: Gender and Work",
+      "front": "What is treatment discrimination in employment?",
       "back": "Treatment discrimination concerns unequal compensation or promotions.",
       "sourceId": "gned10",
       "page": 1
@@ -5607,7 +5607,7 @@
       "id": "gender-work-card-4",
       "subjectId": "gned10",
       "topicId": "gender-work",
-      "front": "What should you remember about Gender and Work?",
+      "front": "How can the maternal wall and unpaid domestic work affect workplace equality?",
       "back": "The maternal wall and unpaid domestic work affect workplace equality.",
       "sourceId": "gned10",
       "page": 1
@@ -5616,7 +5616,7 @@
       "id": "gender-school-card-1",
       "subjectId": "gned10",
       "topicId": "gender-school",
-      "front": "Key idea 1: Gender and School",
+      "front": "Which two institutions are major agents of gender socialization?",
       "back": "Family and school are central agents of gender socialization.",
       "sourceId": "gned10",
       "page": 1
@@ -5625,7 +5625,7 @@
       "id": "gender-school-card-2",
       "subjectId": "gned10",
       "topicId": "gender-school",
-      "front": "Recall: Gender and School",
+      "front": "How can gender-responsive education challenge stereotypes?",
       "back": "Gender-responsive education should challenge stereotypes.",
       "sourceId": "gned10",
       "page": 2
@@ -5634,7 +5634,7 @@
       "id": "gender-school-card-3",
       "subjectId": "gned10",
       "topicId": "gender-school",
-      "front": "Explain this concept: Gender and School",
+      "front": "How can schools and teachers help reduce gender bias?",
       "back": "School policies and teacher training can counter explicit and implicit bias.",
       "sourceId": "gned10",
       "page": 2
@@ -5643,7 +5643,7 @@
       "id": "gender-media-card-1",
       "subjectId": "gned10",
       "topicId": "gender-media",
-      "front": "Key idea 1: Gender and the Media",
+      "front": "How does media representation relate to gender equality and social justice?",
       "back": "Media representation relates to equality and social justice.",
       "sourceId": "gned10",
       "page": 2
@@ -5652,7 +5652,7 @@
       "id": "gender-media-card-2",
       "subjectId": "gned10",
       "topicId": "gender-media",
-      "front": "Recall: Gender and the Media",
+      "front": "What are gender stereotypes?",
       "back": "Stereotypes are oversimplified beliefs about groups.",
       "sourceId": "gned10",
       "page": 2
@@ -5661,7 +5661,7 @@
       "id": "gender-media-card-3",
       "subjectId": "gned10",
       "topicId": "gender-media",
-      "front": "Explain this concept: Gender and the Media",
+      "front": "How can advertising reinforce gender stereotypes?",
       "back": "Advertising can reinforce gender stereotypes.",
       "sourceId": "gned10",
       "page": 2
@@ -5670,7 +5670,7 @@
       "id": "pickleball-card-1",
       "subjectId": "pathfit3",
       "topicId": "pickleball",
-      "front": "Key idea 1: Pickleball",
+      "front": "Which sports influenced the development of pickleball?",
       "back": "Pickleball combines characteristics of badminton, tennis and table tennis.",
       "sourceId": "pickleball",
       "page": 3
@@ -5679,7 +5679,7 @@
       "id": "pickleball-card-2",
       "subjectId": "pathfit3",
       "topicId": "pickleball",
-      "front": "Recall: Pickleball",
+      "front": "Where and when was pickleball created?",
       "back": "The game was created in 1965 on Bainbridge Island, Washington.",
       "sourceId": "pickleball",
       "page": 5
@@ -5688,7 +5688,7 @@
       "id": "pickleball-card-3",
       "subjectId": "pathfit3",
       "topicId": "pickleball",
-      "front": "Explain this concept: Pickleball",
+      "front": "Which two rules are especially important in pickleball?",
       "back": "The two-bounce rule and non-volley zone are central rules.",
       "sourceId": "pickleball",
       "page": 17
@@ -5697,7 +5697,7 @@
       "id": "pickleball-card-4",
       "subjectId": "pathfit3",
       "topicId": "pickleball",
-      "front": "What should you remember about Pickleball?",
+      "front": "Which fundamental strokes are used in pickleball?",
       "back": "Core strokes include serving, dinking, volleys, drives and lobs.",
       "sourceId": "pickleball",
       "page": 36
@@ -5706,7 +5706,7 @@
       "id": "table-tennis-card-1",
       "subjectId": "pathfit3",
       "topicId": "table-tennis",
-      "front": "Key idea 1: Table Tennis",
+      "front": "When did table tennis become an Olympic sport?",
       "back": "Table tennis became an Olympic sport in 1988.",
       "sourceId": "tabletennis",
       "page": 7
@@ -5715,7 +5715,7 @@
       "id": "table-tennis-card-2",
       "subjectId": "pathfit3",
       "topicId": "table-tennis",
-      "front": "Recall: Table Tennis",
+      "front": "What equipment is typically used to play table tennis?",
       "back": "Typical equipment includes the table, paddle and ball.",
       "sourceId": "tabletennis",
       "page": 9
@@ -5724,7 +5724,7 @@
       "id": "table-tennis-card-3",
       "subjectId": "pathfit3",
       "topicId": "table-tennis",
-      "front": "Explain this concept: Table Tennis",
+      "front": "What are some fundamental table tennis strokes?",
       "back": "Core strokes include backhand, forehand, push, block and smash.",
       "sourceId": "tabletennis",
       "page": 14
@@ -5733,7 +5733,7 @@
       "id": "table-tennis-card-4",
       "subjectId": "pathfit3",
       "topicId": "table-tennis",
-      "front": "What should you remember about Table Tennis?",
+      "front": "How many points are usually needed to win a table tennis game, and by what margin?",
       "back": "A game generally goes to 11 with at least a two-point lead.",
       "sourceId": "tabletennis",
       "page": 28
@@ -5742,7 +5742,7 @@
       "id": "racket-fundamentals-card-1",
       "subjectId": "pathfit3",
       "topicId": "racket-fundamentals",
-      "front": "Key idea 1: Fundamental Racket Skills",
+      "front": "What is the purpose of the ready position in racket sports?",
       "back": "Ready position uses balance, bent knees and a racket held in front.",
       "sourceId": "fundamentals",
       "page": 7
@@ -5751,7 +5751,7 @@
       "id": "racket-fundamentals-card-2",
       "subjectId": "pathfit3",
       "topicId": "racket-fundamentals",
-      "front": "Recall: Fundamental Racket Skills",
+      "front": "How should you grip a racket?",
       "back": "A grip should be firm without excessive tension.",
       "sourceId": "fundamentals",
       "page": 11
@@ -5760,7 +5760,7 @@
       "id": "racket-fundamentals-card-3",
       "subjectId": "pathfit3",
       "topicId": "racket-fundamentals",
-      "front": "Explain this concept: Fundamental Racket Skills",
+      "front": "Why is footwork important in racket sports?",
       "back": "Footwork helps players reach and recover from shots.",
       "sourceId": "fundamentals",
       "page": 17
@@ -5769,7 +5769,7 @@
       "id": "racket-fundamentals-card-4",
       "subjectId": "pathfit3",
       "topicId": "racket-fundamentals",
-      "front": "What should you remember about Fundamental Racket Skills?",
+      "front": "How does hand-eye coordination help in racket sports?",
       "back": "Hand-eye coordination helps control the ball or shuttle.",
       "sourceId": "fundamentals",
       "page": 24

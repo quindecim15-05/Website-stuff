@@ -4,4 +4,5 @@ describe('Content integrity',()=>{
  it('keeps question references in range',()=>{for(const q of questions)for(const s of q.sources){const source=sources.find(x=>x.id===s.sourceId);expect(source).toBeDefined();expect(s.page).toBeGreaterThanOrEqual(1);expect(s.page).toBeLessThanOrEqual(source!.pages)}});
  it('never duplicates question IDs and verifies four question types',()=>{expect(new Set(questions.map(x=>x.id)).size).toBe(questions.length);expect(new Set(questions.map(x=>x.type)).size).toBe(4)});
  it('has source-grounded lessons and flashcards for each topic',()=>{for(const t of topics){expect(t.summary.length).toBeGreaterThan(0);expect(t.sections.length).toBeGreaterThan(0);expect(flashcards.some(c=>c.topicId===t.id)).toBe(true)}});
+ it('uses specific recall prompts instead of generic flashcard fronts',()=>{expect(flashcards).toHaveLength(170);for(const card of flashcards)expect(card.front).not.toMatch(/^(Key idea|Recall:|Explain this concept:|What should you remember about)/)});
 });
