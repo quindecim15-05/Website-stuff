@@ -1,0 +1,1 @@
+module.exports = { content: ['./index.html', './src/**/*.{ts,tsx}'], theme: { extend: { fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'], mono: ['JetBrains Mono','monospace'] }, colors: { brand: '#2563eb', ink: '#172033' } } }, plugins: [] };

@@ -1,0 +1,6 @@
+import React from 'react';import{createRoot}from'react-dom/client';import{BrowserRouter,Routes,Route,Navigate}from'react-router-dom';
+import {StudyProvider} from './app/Store';import {Shell} from './components/Layout';
+import {Dashboard,SubjectLibrary,SubjectDetail,ReviewerHub,ReviewerPage,FlashcardPage,ProgressPage,MaterialsPage} from './app/Pages';
+import {ExamLanding,ExamSetup,ExamPage,ResultsPage} from './app/Exams';import './styles/main.css';
+function App(){return <BrowserRouter><StudyProvider><Routes><Route element={<Shell/>}><Route index element={<Dashboard/>}/><Route path="subjects" element={<SubjectLibrary/>}/><Route path="subjects/:subjectId" element={<SubjectDetail/>}/><Route path="study" element={<ReviewerHub/>}/><Route path="study/:subjectId/:topicId" element={<ReviewerPage/>}/><Route path="flashcards" element={<FlashcardPage/>}/><Route path="exams" element={<ExamLanding/>}/><Route path="exams/new" element={<ExamSetup/>}/><Route path="progress" element={<ProgressPage/>}/><Route path="results/:attemptId" element={<ResultsPage/>}/><Route path="materials/:sourceId" element={<MaterialsPage/>}/></Route><Route path="exam/:sessionId" element={<ExamPage/>}/><Route path="*" element={<Navigate to="/" replace/>}/></Routes></StudyProvider></BrowserRouter>}
+createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

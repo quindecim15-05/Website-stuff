@@ -1,0 +1,15 @@
+import data from './data.json';
+import type { Question } from '../domain/types';
+export type Subject = {id:string;name:string;subtitle:string;icon:string;description:string};
+export type Source = {id:string;subjectId:string;title:string;filename:string;pages:number;originalType:string;path:string};
+export type LessonSection = {title:string;body:string;page:number;sourceId:string};
+export type Topic = {id:string;subjectId:string;title:string;description:string;sourceId:string;summary:string[];sections:LessonSection[];coverageNote:string|null};
+export type Flashcard = {id:string;subjectId:string;topicId:string;front:string;back:string;sourceId:string;page:number};
+export const subjects = data.subjects as Subject[];
+export const sources = data.sources as Source[];
+export const topics = data.topics as Topic[];
+export const questions = data.questions as unknown as Question[];
+export const flashcards = data.flashcards as Flashcard[];
+export const subjectName=(id:string)=>subjects.find(s=>s.id===id)?.name ?? id;
+export const topicName=(id:string)=>topics.find(t=>t.id===id)?.title ?? id;
+export const sourceLink=(sourceId:string,page:number)=>`/materials/${sourceId}?page=${Math.max(1,page)}`;
